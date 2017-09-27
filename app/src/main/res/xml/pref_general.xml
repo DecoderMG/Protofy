@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="tutorial_completed"
+        android:summary="This will queue up the two intro tooltips in the whiteboard. You will need to enable this each time you want to replay those tooltips"
+        android:title="Replay Whiteboard tooltips" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="intro_completed"
+        android:summary="This will queue up to play the intro slides on next app start. You will need to enable this each time you want to replay the slides"
+        android:title="Replay intro slides" />
+</PreferenceScreen>

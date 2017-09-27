@@ -1,0 +1,1 @@
+include ':app', ':bordermenu', ':tourguide', ':colorpicker', ':apptour-library'

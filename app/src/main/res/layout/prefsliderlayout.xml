@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/prefTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/prefSliderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#24aaf2" />
+
+    <com.gc.materialdesign.views.Slider
+        android:id="@+id/prefSlider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#1E88E5"
+        android:paddingBottom="5dp"
+        materialdesign:max="50"
+        materialdesign:min="0" />
+
+    <!--<EditText android:id="@+id/setSizeEditText" android:layout_height="wrap_content" android:inputType="number" android:layout_below="@+id/textView1" android:layout_centerHorizontal="true" android:layout_width="fill_parent">
+          <requestFocus></requestFocus>
+      </EditText> -->
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+    <header
+        android:fragment="com.underground.protofy.Preferences.SettingsActivity$GeneralPreferenceFragment"
+        android:title="General Settings"/>
+
+    <header
+        android:fragment="com.underground.protofy.Preferences.SettingsActivity$TextViewPreferenceFragment"
+        android:title="@string/pref_header_textview" />
+
+    <header
+        android:fragment="com.underground.protofy.Preferences.SettingsActivity$ButtonPreferenceFragment"
+        android:title="@string/pref_header_button" />
+
+    <header
+        android:fragment="com.underground.protofy.Preferences.SettingsActivity$EditTextPreferenceFragment"
+        android:title="@string/pref_header_edittext" />
+
+    <header
+        android:fragment="com.underground.protofy.Preferences.SettingsActivity$ImageViewPreferenceFragment"
+        android:title="@string/pref_header_imageview" />
+
+    <header
+        android:fragment="com.underground.protofy.Preferences.SettingsActivity$RelativeLayoutPreferenceFragment"
+        android:title="@string/pref_header_relativelayout" />
+
+</preference-headers>

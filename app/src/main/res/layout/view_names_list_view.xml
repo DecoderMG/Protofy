@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.underground.protofy.Views.mRelativeLayout
+                android:id="@+id/idViewLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.nhaarman.supertooltips.ToolTipRelativeLayout
+                    android:id="@+id/view_preview_tooltipRelativeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </com.underground.protofy.Views.mRelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</HorizontalScrollView>

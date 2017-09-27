@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/selectedAlphaViewDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:text="Background Alpha">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/setBackgroundAlphaNumberCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#24aaf2" />
+
+    <com.gc.materialdesign.views.Slider
+        android:id="@+id/backgroundAlphaSlider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#1E88E5"
+        android:paddingBottom="20dp"
+        materialdesign:max="255"
+        materialdesign:min="0" />
+
+    <TextView
+        android:id="@+id/textAlphaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:text="Text Alpha">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/setTextAlphaNumberCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#24aaf2" />
+
+    <com.gc.materialdesign.views.Slider
+        android:id="@+id/textAlphaSlider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#1E88E5"
+        android:paddingBottom="20dp"
+        materialdesign:max="255"
+        materialdesign:min="0" />
+
+</LinearLayout>

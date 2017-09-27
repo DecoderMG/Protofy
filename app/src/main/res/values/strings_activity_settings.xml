@@ -1,0 +1,180 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="pref_header_textview">TextView Settings</string>
+    <string name="pref_header_button">Button Settings</string>
+    <string name="pref_header_edittext">EditText Settings</string>
+    <string name="pref_header_imageview">ImageView Settings</string>
+    <string name="pref_header_relativelayout">Relative Layout Settings</string>
+
+
+    <!-- Text Options preference strings -->
+
+    <string name="pref_title_default_text">Default text</string>
+    <string name="pref_title_default_hint">Default hint</string>
+    <string name="pref_summary_textview_default_text">This is what every Textview\'s initial text will be</string>
+    <string name="pref_summary_button_default_text">This is what every Button\'s initial text will be</string>
+    <string name="pref_summary_edittext_default_text">This is what every EditText\'s initial hint will be</string>
+
+    <string name="pref_default_text_hint_for_views">Double-click to see options</string>
+
+    <string name="pref_title_default_font">Default text font</string>
+    <string name="pref_title_default_emphasis">Default text emphasis</string>
+    <string-array name="pref_font_list_titles">
+        <item>Normal</item>
+        <item>Monospace</item>
+        <item>Serif</item>
+        <item>San Serif</item>
+    </string-array>
+    <string-array name="pref_font_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="pref_emphasis_list_titles">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold and Italic</item>
+    </string-array>
+    <string-array name="pref_emphasis_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="pref_title_default_max_text_size">Max text size</string>
+    <string name="pref_summary_default_max_text_size">The range from 0 to the max for the text size slider</string>
+
+    <string name="pref_title_default_max_line_spacing">Max line spacing</string>
+    <string name="pref_summary_default_max_line_spacing">The range from 0 to the max for the line spacing slider</string>
+
+    <!-- End Text Options preference strings -->
+
+    <!-- Appearance preference strings -->
+    <string name="pref_title_default_text_color">Default text color</string>
+    <string name="pref_title_default_background_color">Default background color</string>
+    <string name="pref_default_textview_text_color_value">#ff333333</string>
+    <string name="pref_default_textview_background_color_value">#00333333</string>
+
+    <string name="pref_title_width">Starting width of view</string>
+    <string name="pref_summary_width_height">Default is 100dp</string>
+    <string name="pref_title_height">Starting height of view</string>
+
+    <string name="pref_title_max_width">Max width of view</string>
+    <string name="pref_summary_max_width">If value is unchanged, value will be the current screen density</string>
+    <string name="pref_title_max_height">Max height of view</string>
+    <string name="pref_summary_max_height">If value is unchanged, value will be the current screen density</string>
+
+    <string name="pref_title_default_image_scale_type">Default Image Scaling</string>
+    <string name="pref_summary_default_image_scale_type">Scaling for Image (i.e. Matric, Fit XY, etc.)</string>
+    <string-array name="pref_default_image_scale_type_list_titles">
+        <item>Matrix</item>
+        <item>Fix X and Y</item>
+        <item>Fit Start</item>
+        <item>Fit Center</item>
+        <item>Fit End</item>
+        <item>Center</item>
+        <item>Center Crop</item>
+        <item>Center Inside</item>
+    </string-array>
+    <string-array name="pref_default_image_scale_type_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="pref_title_default_tint_mode">Tint mode</string>
+    <string name="pref_summary_default_tint_mode">Mode for tinting (i.e. src_atop, src_in, etc.)</string>
+    <string-array name="pref_default_tint_mode_list_titles">
+        <item>Source Atop</item>
+        <item>Source In</item>
+        <item>Source Over</item>
+        <item>Multiply</item>
+        <item>Screen</item>
+        <item>Add</item>
+    </string-array>
+    <string-array name="pref_default_tint_mode_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="pref_title_max_padding_top">Max top padding</string>
+    <string name="pref_summary_max_padding_top">The range from 0 to the max for the top padding slider</string>
+    <string name="pref_title_max_padding_bottom">Max bottom padding</string>
+    <string name="pref_summary_max_padding_bottom">The range from 0 to the max for the bottom padding slider</string>
+    <string name="pref_title_max_padding_left">Max left padding</string>
+    <string name="pref_summary_max_padding_left">The range from 0 to the max for the left padding slider</string>
+    <string name="pref_title_max_padding_right">Max right padding</string>
+    <string name="pref_summary_max_padding_right">The range from 0 to the max for the right padding slider</string>
+
+    <string name="pref_title_default_top_padding">Default top padding</string>
+    <string name="pref_title_default_bottom_padding">Default bottom padding</string>
+    <string name="pref_title_default_left_padding">Default left padding</string>
+    <string name="pref_title_default_right_padding">Default right padding</string>
+
+    <!-- End Appearance preference strings -->
+
+    <!-- Layout Options preference strings -->
+    <string name="pref_title_default_parent_relation">Default parent relation</string>
+    <string-array name="pref_default_parent_relation_list_titles">
+        <item>none</item>
+        <item>Align to parent top</item>
+        <item>Align to parent right</item>
+        <item>Align to parent left</item>
+        <item>Align to parent bottom</item>
+        <item>Center in parent</item>
+        <item>Center horizontally</item>
+        <item>Center vertically</item>
+    </string-array>
+    <string-array name="pref_default_parent_relation_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string name="pref_title_max_margin_top">Max top margin</string>
+    <string name="pref_summary_max_margin_top">The range from 0 to the max for the top margin slider</string>
+    <string name="pref_title_max_margin_bottom">Max bottom margin</string>
+    <string name="pref_summary_max_margin_bottom">The range from 0 to the max for the bottom margin slider</string>
+    <string name="pref_title_max_margin_left">Max left margin</string>
+    <string name="pref_summary_max_margin_left">The range from 0 to the max for the left margin slider</string>
+    <string name="pref_title_max_margin_right">Max right margin</string>
+    <string name="pref_summary_max_margin_right">The range from 0 to the max for the right margin slider</string>
+
+    <string name="pref_title_default_top_margin">Default top margin</string>
+    <string name="pref_title_default_bottom_margin">Default bottom margin</string>
+    <string name="pref_title_default_left_margin">Default left margin</string>
+    <string name="pref_title_default_right_margin">Default right margin</string>
+
+    <string name="pref_title_wrapping_width">View layout wrapping for width</string>
+    <string name="pref_title_wrapping_height">View layout wrapping for height</string>
+    <string-array name="pref_wrapping_list_titles">
+        <item>Wrap content</item>
+        <item>Match parent</item>
+    </string-array>
+    <string-array name="pref_wrapping_list_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!-- End Layout Options preference strings -->
+</resources>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Refresh"
+        android:title="Refresh"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/Form_widgets"
+        android:title="Form Widgets">
+        <!--   "Form Sub-menu" -->
+        <menu>
+            <item
+                android:id="@+id/TextView"
+                android:title="Text View" />
+            <item
+                android:id="@+id/Button"
+                android:title="Button" />
+            <item
+                android:id="@+id/EditText"
+                android:title="Text Input" />
+            <item
+                android:id="@+id/Spinner"
+                android:title="Spinner" />
+            <item
+                android:id="@+id/Progress_Bar"
+                android:title="Progress Bar" />
+            <item
+                android:id="@+id/Seek_Bar"
+                android:title="Seek Bar" />
+            <item
+                android:id="@+id/QuickContact"
+                android:title="Quick Contact" />
+            <item
+                android:id="@+id/Rating"
+                android:title="Rating Bars" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/Layouts"
+        android:title="Layouts">
+        <menu>
+            <item
+                android:id="@+id/LinearLayout"
+                android:title="Linear Layout" />
+            <item
+                android:id="@+id/RelativeLayout"
+                android:title="Relative Layout" />
+            <item
+                android:id="@+id/FrameLayout"
+                android:title="Frame Layout" />
+            <item
+                android:id="@+id/Fragment"
+                android:title="Fragment" />
+            <item
+                android:id="@+id/TableLayout"
+                android:title="Table Layout" />
+            <item
+                android:id="@+id/TableRow"
+                android:title="Table Row" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Composite"
+        android:title="Composite">
+        <menu>
+            <item
+                android:id="@+id/ListView"
+                android:title="List View" />
+            <item
+                android:id="@+id/ExpandableListView"
+                android:title="Expandable List View" />
+            <item
+                android:id="@+id/GridView"
+                android:title="Grid View" />
+            <item
+                android:id="@+id/ScrollView"
+                android:title="Scroll View" />
+            <item
+                android:id="@+id/HorScrollView"
+                android:title="Horizontal Scroll View" />
+            <item
+                android:id="@+id/SearchView"
+                android:title="Search View" />
+            <item
+                android:id="@+id/SlidingDrawer"
+                android:title="Sliding Drawer" />
+            <item
+                android:id="@+id/TabHost"
+                android:title="Tab Host" />
+            <item
+                android:id="@+id/WebView"
+                android:title="Web View" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Images"
+        android:title="Images and Media">
+        <menu>
+            <item
+                android:id="@+id/ImageView"
+                android:title="Image View" />
+            <item
+                android:id="@+id/ImageButton"
+                android:title="Image Button" />
+            <item
+                android:id="@+id/Gallery"
+                android:title="Gallery" />
+            <item
+                android:id="@+id/MediaController"
+                android:title="Media Controller" />
+            <item
+                android:id="@+id/VideoView"
+                android:title="Video View" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Time"
+        android:title="Time and Date">
+        <menu>
+            <item
+                android:id="@+id/TimePicker"
+                android:title="Time Picker" />
+            <item
+                android:id="@+id/DatePicker"
+                android:title="Date Picker" />
+            <item
+                android:id="@+id/Calendar"
+                android:title="Calendar" />
+            <item
+                android:id="@+id/Chronometer"
+                android:title="Chronometer" />
+            <item
+                android:id="@+id/AnalogClock"
+                android:title="Analog Clock" />
+            <item
+                android:id="@+id/DigitalClock"
+                android:title="Digital Clock" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Transitions"
+        android:title="Transitions">
+        <menu>
+            <item
+                android:id="@+id/ImageSwitcher"
+                android:title="Image Switcher" />
+            <item
+                android:id="@+id/AdapterViewFlipper"
+                android:title="Adapter View Flipper" />
+            <item
+                android:id="@+id/StackView"
+                android:title="Stack View" />
+            <item
+                android:id="@+id/TextSwitcher"
+                android:title="Text Switcher" />
+            <item
+                android:id="@+id/ViewAnimator"
+                android:title="View Animator" />
+            <item
+                android:id="@+id/ViewFlipper"
+                android:title="View Flipper" />
+            <item
+                android:id="@+id/ViewSwitcher"
+                android:title="View Switcher" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Advanced"
+        android:title="Advanced">
+        <menu>
+            <item
+                android:id="@+id/RequestFocus"
+                android:title="Request Focus" />
+            <item
+                android:id="@+id/View"
+                android:title="View" />
+            <item
+                android:id="@+id/ViewStub"
+                android:title="View Stub" />
+            <item
+                android:id="@+id/GestureOverlayView"
+                android:title="Gesture Overlay View" />
+            <item
+                android:id="@+id/SurfaceView"
+                android:title="Surface View" />
+            <item
+                android:id="@+id/NumberPicker"
+                android:title="Number Picker" />
+            <item
+                android:id="@+id/Zoom"
+                android:title="Zoom" />
+            <item
+                android:id="@+id/ZoomControls"
+                android:title="Zoom Controls" />
+            <item
+                android:id="@+id/DialerControls"
+                android:title="Dialer Controls" />
+            <item
+                android:id="@+id/TwoLineListItem"
+                android:title="Two Line List Item" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/BuildXML"
+        android:title="Build XML File" />
+    <item
+        android:id="@+id/help"
+        android:title="Help" />
+</menu>

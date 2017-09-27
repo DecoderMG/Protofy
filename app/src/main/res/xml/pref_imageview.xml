@@ -1,0 +1,196 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="pref_key_imageview_appearance_settings"
+        android:title="Appearance Options">
+
+       <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/pref_default_tint_mode_list_titles"
+            android:entryValues="@array/pref_default_tint_mode_list_values"
+            android:key="imageview_default_tint_mode"
+            android:negativeButtonText="Go back"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_title_default_tint_mode"
+            android:summary="@string/pref_summary_default_tint_mode"/>
+
+       <!-- <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/pref_default_image_scale_type_list_titles"
+            android:entryValues="@array/pref_default_image_scale_type_list_values"
+            android:key="imageview_default_scale_type"
+            android:negativeButtonText="Go back"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_title_default_image_scale_type"
+            android:summary="@string/pref_summary_default_image_scale_type"/> -->
+
+
+        <com.underground.protofy.Dialogprefs.ImageViewDialogs.ImageViewWidthPreference
+            android:inputType="number"
+            android:dialogLayout="@layout/prefsliderlayout"
+            android:key="imageview_default_width"
+            android:selectAllOnFocus="true"
+            android:defaultValue="100"
+            android:summary="@string/pref_summary_width_height"
+            android:title="@string/pref_title_width" />
+        <com.underground.protofy.Dialogprefs.ImageViewDialogs.ImageViewHeightPreference
+            android:inputType="number"
+            android:dialogLayout="@layout/prefsliderlayout"
+            android:key="imageview_default_height"
+            android:selectAllOnFocus="true"
+            android:defaultValue="100"
+            android:summary="@string/pref_summary_width_height"
+            android:title="@string/pref_title_height" />
+
+        <EditTextPreference
+            android:inputType="number"
+            android:key="imageview_default_max_width"
+            android:selectAllOnFocus="true"
+            android:summary="@string/pref_summary_max_width"
+            android:title="@string/pref_title_max_width" />
+        <EditTextPreference
+            android:inputType="number"
+            android:key="imageview_default_max_height"
+            android:selectAllOnFocus="true"
+            android:summary="@string/pref_summary_max_height"
+            android:title="@string/pref_title_max_height" />
+
+        <EditTextPreference
+            android:defaultValue="50"
+            android:inputType="number"
+            android:key="imageview_default_max_top_padding"
+            android:selectAllOnFocus="true"
+            android:summary="@string/pref_summary_max_padding_top"
+            android:title="@string/pref_title_max_padding_top" />
+        <EditTextPreference
+            android:defaultValue="50"
+            android:inputType="number"
+            android:key="imageview_default_max_bottom_padding"
+            android:selectAllOnFocus="true"
+            android:summary="@string/pref_summary_max_padding_bottom"
+            android:title="@string/pref_title_max_padding_bottom" />
+        <EditTextPreference
+            android:defaultValue="50"
+            android:inputType="number"
+            android:key="imageview_default_max_left_padding"
+            android:selectAllOnFocus="true"
+            android:summary="@string/pref_summary_max_padding_left"
+            android:title="@string/pref_title_max_padding_left" />
+        <EditTextPreference
+            android:defaultValue="50"
+            android:inputType="number"
+            android:key="imageview_default_max_right_padding"
+            android:selectAllOnFocus="true"
+            android:summary="@string/pref_summary_max_padding_right"
+            android:title="@string/pref_title_max_padding_right" />
+
+        <com.underground.protofy.Dialogprefs.ImageViewDialogs.ImageViewTopPaddingPreference
+            android:dialogLayout="@layout/prefsliderlayout"
+            android:key="imageview_default_top_padding"
+            android:negativeButtonText="Go back"
+            android:positiveButtonText="Set default top padding"
+            android:title="@string/pref_title_default_top_padding" />
+        <com.underground.protofy.Dialogprefs.ImageViewDialogs.ImageViewBottomPaddingPreference
+            android:dialogLayout="@layout/prefsliderlayout"
+            android:key="imageview_default_bottom_padding"
+            android:negativeButtonText="Go back"
+            android:positiveButtonText="Set default bottom padding"
+            android:title="@string/pref_title_default_bottom_padding" />
+        <com.underground.protofy.Dialogprefs.ImageViewDialogs.ImageViewLeftPaddingPreference
+            android:dialogLayout="@layout/prefsliderlayout"
+            android:key="imageview_default_left_padding"
+            android:negativeButtonText="Go back"
+            android:positiveButtonText="Set default left padding"
+            android:title="@string/pref_title_default_left_padding" />
+        <com.underground.protofy.Dialogprefs.ImageViewDialogs.ImageViewRightPaddingPreference
+            android:dialogLayout="@layout/prefsliderlayout"
+            android:key="imageview_default_right_padding"
+            android:negativeButtonText="Go back"
+            android:positiveButtonText="Set default right padding"
+            android:title="@string/pref_title_default_right_padding" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_key_imageview_layout_settings"
+        android:title="Layout Options">
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/pref_default_parent_relation_list_titles"
+            android:entryValues="@array/pref_default_parent_relation_list_values"
+            android:key="imageview_default_parent_relation"
+            android:negativeButtonText="Go back"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_title_default_parent_relation" />
+
+        <EditTextPreference
+            android:defaultValue="50"
+            android:inputType="number"
+            android:key="imageview_default_max_top_margin"
+            android:selectAllOnFocus="true"
+            android:summary="@string/pref_summary_max_margin_top"
+            android:title="@string/pref_title_max_margin_top" />
+        <EditTextPreference
+            android:defaultValue="50"
+            android:inputType="number"
+            android:key="imageview_default_max_bottom_margin"
+            android:selectAllOnFocus="true"
+            android:summary="@string/pref_summary_max_margin_bottom"
+            android:title="@string/pref_title_max_margin_bottom" />
+        <EditTextPreference
+            android:defaultValue="50"
+            android:inputType="number"
+            android:key="imageview_default_max_left_margin"
+            android:selectAllOnFocus="true"
+            android:summary="@string/pref_summary_max_margin_left"
+            android:title="@string/pref_title_max_margin_left" />
+        <EditTextPreference
+            android:defaultValue="50"
+            android:inputType="number"
+            android:key="imageview_default_max_right_margin"
+            android:selectAllOnFocus="true"
+            android:summary="@string/pref_summary_max_margin_right"
+            android:title="@string/pref_title_max_margin_right" />
+
+        <com.underground.protofy.Dialogprefs.ImageViewDialogs.ImageViewTopMarginPreference
+            android:dialogLayout="@layout/prefsliderlayout"
+            android:key="imageview_default_top_margin"
+            android:negativeButtonText="Go back"
+            android:positiveButtonText="Set default top margin"
+            android:title="@string/pref_title_default_top_margin" />
+        <com.underground.protofy.Dialogprefs.ImageViewDialogs.ImageViewBottomMarginPreference
+            android:dialogLayout="@layout/prefsliderlayout"
+            android:key="imageview_default_bottom_margin"
+            android:negativeButtonText="Go back"
+            android:positiveButtonText="Set default bottom margin"
+            android:title="@string/pref_title_default_bottom_margin" />
+        <com.underground.protofy.Dialogprefs.ImageViewDialogs.ImageViewLeftMarginPreference
+            android:dialogLayout="@layout/prefsliderlayout"
+            android:key="imageview_default_left_margin"
+            android:negativeButtonText="Go back"
+            android:positiveButtonText="Set default left margin"
+            android:title="@string/pref_title_default_left_margin" />
+        <com.underground.protofy.Dialogprefs.ImageViewDialogs.ImageViewRightMarginPreference
+            android:dialogLayout="@layout/prefsliderlayout"
+            android:key="imageview_default_right_margin"
+            android:negativeButtonText="Go back"
+            android:positiveButtonText="Set default right margin"
+            android:title="@string/pref_title_default_right_margin" />
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/pref_wrapping_list_titles"
+            android:entryValues="@array/pref_wrapping_list_values"
+            android:key="imageview_default_width_wrapping"
+            android:negativeButtonText="Go back"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_title_wrapping_width" />
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/pref_wrapping_list_titles"
+            android:entryValues="@array/pref_wrapping_list_values"
+            android:key="imageview_default_height_wrapping"
+            android:negativeButtonText="Go back"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_title_wrapping_height" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

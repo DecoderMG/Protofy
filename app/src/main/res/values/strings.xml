@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Protofy</string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="top">Top</string>
+    <string name="bottom">Bottom</string>
+    <string name="font_color_string">Font Color</string>
+    <string name="background_color_string">Background Color</string>
+    <string name="emphasis">Emphasis</string>
+    <string name="font">Font</string>
+    <string name="normal">Normal</string>
+    <string name="bold">Bold</string>
+    <string name="italic">Italic</string>
+    <string name="bold_italic">Bold and Italic</string>
+    <string name="monospace">Monospace</string>
+    <string name="serif">Serif</string>
+    <string name="sanserif">San Serif</string>
+
+    <string name="set_hint_dialog_text">Please Enter the desired hint to be displayed:</string>
+    <string name="set_text_dialog_text">Please enter the text you want to be displayed:</string>
+    <string name="set_id_dialog_hint">Please Provide the view with an id. This will be used to tie the layout together. This can not be changed later</string>
+    <string name="set_line_spacing_dialog_text">Please enter desired line spacing values</string>
+    <string name="set_margins_dialog_text">Please enter desired margin values</string>
+    <string name="set_padding_dialog_text">Please enter desired padding values</string>
+
+    <string name="gravity_dialog_text">Please enter the desired View Gravity:</string>
+    <string name="xml_name">Please Enter the desired xml file name:</string>
+
+
+
+    <string name="whiteboard_launch_button_text">Launch Whiteboard</string>
+    <string name="whiteboard">Whiteboard</string>
+    <string name="generate_xml">Generate XML</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="edittext">EditText</string>
+
+
+
+    <string name="documentation_button_text">Documentation</string>
+
+    <string name="guide_title_header">Protofy Function Documentation</string>
+
+    <string name="guide_intro_summary">Thank you for taking the time to invest in our early access. Every download helps make the app better. We\'re a small two man team and going early access allows us to get feedback from you and how we can make the app better at serving your needs! To that end thank you for your initial investment to a future of no coding app development.</string>
+
+    <string name="view_obstruction_header">Handling view obstruction</string>
+    <string name="view_obstruction_guide">You may have noticed your most recent view is covering up your old view. THis is due to the way Android handles depth on views before Lollipop. To combat this just keep in mind that the most recent view will take view precedence over your other views. Design around this, we are currently looking into a solution for this.</string>
+
+    <string name="text_control_header">Text Controls</string>
+
+    <string name="set_text_guide_header">Setting Text/Hint</string>
+    <string name="set_text_guide">This will set a TextView, Button, or EditText Text/Hint</string>
+
+    <string name="set_font_guide_header">Text Font/Emphasis</string>
+    <string name="set_font_guide">Using the Font/Emphasis control center you will be able to change Text appearance from different typefaces like Monospace or San-Serif to modifying Emphasis. Emphasis like making the text bold or italic</string>
+
+    <string name="set_text_size_guide_header">Text Size</string>
+    <string name="set_text_size_guide">Using the Text Size control center you will be able to adjust the text size from 0 to 50 with the default being in the middle at 25.</string>
+
+    <string name="set_line_spacing_guide_header">Line Spacing</string>
+    <string name="set_line_spacing_guide">Using the Line Spacing control center you will be able to set the line spacing from 7 to 30 with the default being 10. Keep in mind that this is the additive portion of the line spacing algorithm. THe multiplication portion is simply the additive/10</string>
+
+    <string name="appearance_control_header">Modifying the Appearance</string>
+
+    <string name="set_color_alpha_guide_header">Setting the text/background color and alpha</string>
+    <string name="set_color_alpha_guide">The color/alpha control system will allow you to not only change the background color of the view but also the text color. You will also be able to change the saturation and alpha of the text and background.
+    If font color is selected every color change and alpha change will only affect the text within the view (if the view has text). This is the default state when opening the controls</string>
+
+
+    <string name="set_padding_guide_header">Padding</string>
+    <string name="set_padding_guide">Padding controls the inner space of a view. For example: you have a button holding text. Padding controls how much space is between the text and the edge of the button. The Padding control center lets you modify the padding with the range of 0dp or no padding to 100dp.</string>
+
+    <string name="set_visibility_guide_header">Visibility</string>
+    <string name="set_visibility_guide">Setting the visibility will determine if the view is initially visible on the exported XML file or not. The view will still be visible in the Whiteboard editor for editing purposes. The views appearance will change to indicate the visibility change however, this will NOT override what the view will look like when visible.</string>
+
+    <string name="set_view_size_guide_header">View Size</string>
+    <string name="set_view_size_guide">The view size control system will allow you to adjust the DP value of the selected view. The view size will be converted from DP to screen pixel size for accurate previewing but when the view is exported the pixel width/height will be written out in DPs. Editing the view size will replace the position of any wrap_content etc. layout wrapping parameters.</string>
+
+    <string name="set_image_guide_header">Applying an Image to Layout/ImageView</string>
+    <string name="set_image_guide">You will be able to apply locally stored images to any ImageView and layout but you may not apply an Image to Text, Buttons, or EditTexts. If the view already has an image, when you apply a new image the old image will be overridden. The images will automatically be scaled to the views width and height. Images will also be exported to their own directory separate from the layout XML in the /drawable directory.</string>
+
+    <string name="set_image_tint_guide_header">Applying an Image Color Tint</string>
+    <string name="set_image_tint_guide">When an Image is applied to a layout/view you will unlock a new control system allowing you to apply/change the tint of the image. This will apply a color filter over the image that can be changed. If you remove the image from the layout/view you will lose access to the tinting control system and the image tint will be removed. Since you can not remove an image from an ImageView you will always ave access to the tint control system from ImageViews.</string>
+
+    <string name="layout_control_header">Modifying the Layout</string>
+
+    <string name="set_parent_relations_guide_header">Parent Relations</string>
+    <string name="set_parent_relations_guide">The parent relations system will allow you to specify how you want the selected view to be positioned within its parent layout</string>
+
+    <string name="set_views_relations_guide_header">Views Relations</string>
+    <string name="set_views_relations_guide">The views relations system will handle positioning the selected view in relation to another view in the same parent layout. You must selected the type of view position you wish to achieve (align bottom etc.) and then you will be presented with a preview layout. simply clicking on any view will allow you to see how that option will look before it\'s applied to the actual layout.</string>
+
+    <string name="set_margins_guide_header">Margins</string>
+    <string name="set_margins_guide">Margins handle the space between the selected view and every other view or parent layout. Using margins is the best way to space out views that are too close to each other in the Whiteboad editor and your final layout.</string>
+
+    <string name="set_layout_wrapping_guide_header">Layout Wrapping</string>
+    <string name="set_layout_wrapping_guide">Layout Wrapping refers to how the wrapping of the view is handled. Using the wrapping control system, you can define how the selected view stretches within it\'s parent layout. An example of this would be that if the selected view will have a height of match_parent and a width of wrap_content this means the view will take up the entire height of its parent layout but will only take up the space it needs to hold its content on the width of its parent layout.</string>
+
+
+    <string name="view_init_text">Double-click to see options</string>
+
+    <string-array name="layout_options">
+        <item>Make Primary</item>
+        <item>Customization</item>
+        <item>Layout Parameters</item>
+    </string-array>
+
+    <string-array name="layCust">
+        <item>Color</item>
+        <item>Image</item>
+        <item>Padding</item>
+    </string-array>
+
+    <string-array name="base_layout_options">
+        <item>Add View</item>
+        <item>Background Options</item>
+        <item>Layout Options</item>
+    </string-array>
+
+    <string-array name="Font">
+        <item>Emphasis</item>
+        <item>Android Fonts</item>
+        <item>Third-Party Fonts</item>
+        <item>Your own Font</item>
+    </string-array>
+
+    <string-array name="Emphasis">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold and Italic</item>
+    </string-array>
+
+    <string-array name="Android_Fonts">
+        <item>Default</item>
+        <item>Monospace</item>
+        <item>Serif</item>
+        <item>Sans Serif</item>
+    </string-array>
+
+    <string-array name="Layout_Parent_Positioning">
+        <item>Align to Parent Top</item>
+        <item>Align to Parent Right</item>
+        <item>Align to Parent Left</item>
+        <item>Align to Parent Bottom</item>
+        <item>Center in Parent</item>
+        <item>Center Horizontal</item>
+        <item>Center Vertical</item>
+    </string-array>
+
+    <string-array name="Layout_Other_View_Positioning">
+        <item>Place Above view</item>
+        <item>Place Below view</item>
+        <item>Place Left of view</item>
+        <item>Place Right of view</item>
+        <item>Align Baseline</item>
+        <item>Align End</item>
+        <item>Align Left Edges</item>
+        <item>Align Right Edges</item>
+        <item>Align Top</item>
+        <item>Align Start</item>
+    </string-array>
+
+    <string-array name="Parameters">
+        <item>Content</item>
+        <item>Fill Parent</item>
+        <item>Horizontal Fill</item>
+        <item>Vertical Fill</item>
+    </string-array>
+    <!--
+    <string-array name="colorsArray">
+        <item>Red</item>
+        <item>Cyan</item>
+        <item>Blue</item>
+        <item>Dark Blue</item>
+        <item>Light Purple</item>
+        <item>Purple</item>
+        <item>Yellow</item>
+        <item>Lime</item>
+        <item>Pink</item>
+        <item>White</item>
+        <item>Silver</item>
+        <item>Grey</item>
+        <item>Black</item>
+        <item>Orange</item>
+        <item>Brown</item>
+        <item>Maroon</item>
+        <item>Green</item>
+        <item>Olive</item>
+    </string-array>
+    -->
+
+    <array name="topMenuItemsForButtonEditTextTextView">
+        <item>Text Options</item>
+        <item>Appearance</item>
+        <item>Layout</item>
+    </array>
+
+    <array name="topMenuItemsForImageView">
+        <item>Appearance</item>
+        <item>Layout</item>
+    </array>
+
+    <array name="nonEditTextTextItems">
+        <item>@drawable/settext</item>
+        <item>@drawable/fontcontrol</item>
+        <item>@drawable/textsize</item>
+        <item>@drawable/linespacing</item>
+    </array>
+
+    <array name="appearanceMenuItems">
+        <item>@drawable/colorcontrol</item>
+        <item>@drawable/paddingcontrol</item>
+        <item>@drawable/visibility</item>
+        <item>@drawable/viewsize</item>
+    </array>
+
+    <array name="appearanceMenuItemsImageView">
+        <item>@drawable/setimage</item>
+        <item>@drawable/applytint</item>
+        <item>@drawable/viewsize</item>
+        <item>@drawable/paddingcontrol</item>
+        <item>@drawable/visibility</item>
+    </array>
+
+    <array name="layoutParamsMenuItems">
+        <item>@drawable/parentrelation</item>
+        <item>@drawable/viewsrelation</item>
+        <item>@drawable/marginscontrol</item>
+        <item>@drawable/layoutparams</item>
+        <item>@drawable/removeparam</item>
+        <item>@drawable/removeview</item>
+    </array>
+
+    <array name="baseLayoutIconItems">
+        <item>@drawable/addview</item>
+        <item>@drawable/colorcontrol</item>
+        <item>@drawable/setimage</item>
+        <item>@drawable/paddingcontrol</item>
+    </array>
+    <array name="baseLayoutIconItemsImage">
+        <item>@drawable/addview</item>
+        <item>@drawable/colorcontrol</item>
+        <item>@drawable/applytint</item>
+        <item>@drawable/setimage</item>
+        <item>@drawable/paddingcontrol</item>
+    </array>
+
+    <array name="relativeLayoutIconItems">
+        <item>@drawable/addview</item>
+        <item>@drawable/colorcontrol</item>
+        <item>@drawable/setimage</item>
+        <item>@drawable/paddingcontrol</item>
+        <item>@drawable/marginscontrol</item>
+        <item>@drawable/viewsize</item>
+        <item>@drawable/parentrelation</item>
+        <item>@drawable/viewsrelation</item>
+        <item>@drawable/removeparam</item>
+        <item>@drawable/removeview</item>
+    </array>
+
+    <array name="relativeLayoutIconItemsImage">
+        <item>@drawable/addview</item>
+        <item>@drawable/colorcontrol</item>
+        <item>@drawable/applytint</item>
+        <item>@drawable/setimage</item>
+        <item>@drawable/paddingcontrol</item>
+        <item>@drawable/marginscontrol</item>
+        <item>@drawable/viewsize</item>
+        <item>@drawable/parentrelation</item>
+        <item>@drawable/viewsrelation</item>
+        <item>@drawable/removeparam</item>
+        <item>@drawable/removeview</item>
+    </array>
+
+    <string name="title_activity_intro_screen">IntroScreenActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_guide">Documentation</string>
+    <string name="title_activity_tour">TourActivity</string>
+</resources>
