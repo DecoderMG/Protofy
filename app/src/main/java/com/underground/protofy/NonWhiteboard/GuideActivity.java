@@ -2,7 +2,7 @@ package com.underground.protofy.NonWhiteboard;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -12,7 +12,7 @@ import com.underground.protofy.Preferences.SettingsActivity;
 /**
  * Activity that handles the guidebook portion of the app.
  */
-public class GuideActivity extends ActionBarActivity {
+public class GuideActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
